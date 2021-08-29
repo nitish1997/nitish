@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/test/mvvmtest/ui/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/test/mvvmtest/ui/MainActivity.kt	(date 1630158213510)
++++ app/src/main/java/com/test/mvvmtest/ui/MainActivity.kt	(date 1630158213510)
+@@ -68,7 +68,7 @@
+                 var aryData = ArrayList<PostX>()
+                 for (i in 0 until it.size)
+                 {
+-                    
++
+                     aryData.add(PostX(it[i].event_date,it[i].event_name,it[i].id,it[i].likes,it[i].shares,it[i].thumbnail_image,it[i].views))
+                 }
+                 postAdapter.update(aryData)
